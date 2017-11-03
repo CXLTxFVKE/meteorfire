@@ -12,7 +12,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: DefaultCompany
   productName: 2dlearner
-  defaultCursor: {fileID: 2800000, guid: 0ccdf128e8b700a46b8ac49fa26473be, type: 3}
+  defaultCursor: {fileID: 2800000, guid: 919e616b162613e45a690c82a86b02e0, type: 3}
   cursorHotspot: {x: 50, y: 50}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
@@ -586,12 +586,13 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Collab: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudProjectId: 85ec9b1b-ce15-4bff-8745-fec91e9f33da
+  projectName: 2dlearner
+  organizationId: casualfetus
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

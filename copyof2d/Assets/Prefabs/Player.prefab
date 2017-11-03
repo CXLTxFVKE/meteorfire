@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 61165027856380022}
   - component: {fileID: 114878299333213042}
   - component: {fileID: 114685337057983134}
+  - component: {fileID: 114257765625744534}
   m_Layer: 2
   m_Name: Player
   m_TagString: Player
@@ -90,6 +91,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &114257765625744534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1064181820412848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0184ff86886f974d95dfead14754f36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MultiplicativeColor: {r: 0, g: 0, b: 0, a: 1}
+  AdditiveColor: {r: 0, g: 0, b: 0, a: 0}
+  Material: {fileID: 0}
+  LightObstacleScale: 1
 --- !u!114 &114651037229682596
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -102,6 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isMoveable: 1
+  isIdle: 0
   movespeed: 30
   maxspeed: 15
   health: 0

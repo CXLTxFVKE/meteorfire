@@ -54,11 +54,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletwidth: 2
   knockback: 0
-  range: 50
+  range: 7
   fireRate: 0.1
   canshoot: 0
   canbuild: 0
   Wall: {fileID: 1963035734134188, guid: 71f31eb0e2941474a8940d7641660349, type: 2}
+  gunlight: {fileID: 1991490902279524, guid: 5d29b197919e94d429567ac53b3dcd45, type: 2}
 --- !u!212 &212071695588081026
 SpriteRenderer:
   m_ObjectHideFlags: 1
